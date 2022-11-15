@@ -1,0 +1,115 @@
+
+.s1{
+    display: flex;
+    height: 1000px;
+
+}
+
+.contenedor1 {
+    display: flex;
+    height: 100%;
+    width: 100%;
+
+}
+
+.hijo{
+
+    width: 500px;
+    height: 500px;
+  /* centrar vertical y horizontalmente */
+    margin: 20px auto;
+}
+
+
+.hijo h1{
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #0d3f79;
+    font-size: 46px;
+}
+
+.hijo p{
+    text-align:justify;
+    font-size: 23px;
+    color: rgba(124, 135, 136, 0.884);
+}
+
+.contenedor-imagen{
+    width: 800px;
+    height: 1000px;
+    background-image: url("../images/nurss.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    z-index: 1;
+}
+
+.hijo i{
+    color: yellow;
+    font-size: 19px;
+}
+
+span {
+    font-size: 18px;
+    color: #134C8D;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.schedule{
+    background-color: white;
+    height: 110px;
+    width: 1100px;
+    position: absolute;
+    left: 30px;
+    top: 800px;
+    z-index: 3;
+    display: flex;    
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+
+.schedule div{
+    margin: 0 auto; /*espacio entre div*/
+    width: 20%;
+    height: 100%;
+
+}
+
+.schedule h2{
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(124, 135, 136, 0.884);
+    font-size: 15px;
+
+}
+
+.schedule i{
+    color: #134C8D;
+    font-size: 15px;
+}
+
+.schedule input{
+    text-align: center;
+    color: #134C8D;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.reloj{
+    width: 350px;
+    height: 30px;
+    margin: 250px -8px;
+}
+
+.reloj h1{
+    font-size: 16px;
+}
+
+#i1{
+    color: #0d3f79;
+    font-size: 16px;
+}

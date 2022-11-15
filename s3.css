@@ -1,0 +1,36 @@
+.s3{
+    display: flex;
+    height: 900px;
+}
+
+.contenedor-imagen2{
+    width: 700px;
+    height: 750px;
+    background-image: url("../images/picture2.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    z-index: 1;
+}
+
+
+.cuadro-informativo{
+    width: 600px;
+    height: 750px;
+  /* centrar vertical y horizontalmente */
+    margin: 0 100px;
+}
+
+
+.cuadro-informativo h1{
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #134C8D;
+    font-size: 35px;
+}
+
+#p1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align:justify;
+    font-size: 22px;
+    color: rgba(124, 135, 136, 0.884);
+}
