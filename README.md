@@ -4,4 +4,4 @@ Practicas durante el curso Launch-X
 
 Repositorio
 
-Auto: Angel Rivera.
+Autor: Angel Rivera.
